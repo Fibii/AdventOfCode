@@ -46,6 +46,6 @@ for word1 in words:
                 sharedChar = word1[i]
         #print("word1:",word1,"word2:",word2,"difference:",difference)
         if difference == 1:
-            boxes.add(word1.replace(sharedChar,'')) #there is a bug here, had to use manually remove the char
+            boxes.add(word1.replace(sharedChar,'')) #there is a bug here, had to manually remove the char
 
 print(boxes)
