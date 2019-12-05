@@ -188,6 +188,8 @@ public:
                 case 99:
                     halt();
                     break;
+                default:
+                    throw std::invalid_argument("invalid opcode");
             }
         }
     }
