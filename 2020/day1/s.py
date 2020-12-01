@@ -11,8 +11,6 @@ def part1():
     arr = [0] * target_sum
 
     for num in numbers:
-        if num > 2020:
-            print(num)
         arr[num] += 1
 
     for num in numbers:
