@@ -1,5 +1,3 @@
-import collections
-
 password_lines = [] # list of tuples of (letter, min, max, password)
 with open('input.txt', 'r') as f:
     for line in f.readlines():
